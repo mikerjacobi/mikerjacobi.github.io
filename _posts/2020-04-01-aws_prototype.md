@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AWS Code Pipeline
+title: Prototype built on AWS S3, Lambda, API Gateway, RDS
 ---
 
 I built a project prototype on AWS recently. I was looking for a few things, 1) that it persists on servers that I don't have to maintain 2) it's cheap to keep running, and 3) it could scale up if the project gains traction. This post focuses on the design, and less so on the app itself. 
