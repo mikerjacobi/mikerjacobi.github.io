@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Educational FPS Project
+title: Using CMake and swig to Connect Python to C
 ---
-I started using cmake and SWIG on a project recently. This post is to document my experience with these technologies.
+This post documents my experience with calling my own C library from a Python web server.
 
 Here’s a bit of background. The project I’m referring to, among other things, has an API, written in C, that hooks into MongoDB. Since it’s an API, I wanted to create a shared object so that I could implement various interfaces into it. The first interface I wrote was also in C, so linking to this library was no problem. Then, I wanted my to write the next interface in Python (a Python webserver). This required that I either create a separate API in Python or wrap my C API with Python
 handlers. I opted for the latter. SWIG is a technology that does exactly this - autogenerate interfaces in different languages from c/c++ code. The main benefit of this approach is that my API code is maintained in one location, in one language. Any change I make to the API, in C, will generate the corresponding Python code at compile time. Honestly, being new to both cmake and SWIG, the biggest challenge to accomplish this task was incorporating SWIG commands into cmake.
