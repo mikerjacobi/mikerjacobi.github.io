@@ -1,7 +1,10 @@
 theme: jekyll-theme-minimal
 title: Jacobra
 description: >
-    <a href="/assets/resume.pdf">Resume</a>
-logo: /assets/portait.jpg
+    <a href="/assets/resume.pdf">View my Resume</a>
+    
+    <a href="https://www.linkedin.com/in/mikerjacobi/">View my Linked In</a>
+
+logo: /assets/portrait.jpg
 is_project_page: false
 
