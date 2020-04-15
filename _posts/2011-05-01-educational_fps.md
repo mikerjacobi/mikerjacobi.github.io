@@ -10,4 +10,4 @@ This game was made using C# and XNA. It was team project of three. I was primari
 
 <center>
   <iframe width="300" height="300" src="https://www.youtube.com/embed/Fo3n1K6CHhc" allowfullscreen=""></iframe>
-<center>
+</center>

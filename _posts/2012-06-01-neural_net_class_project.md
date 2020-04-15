@@ -9,4 +9,4 @@ goal was train a neural network that acted as a brain for the avatar. The only t
 
 <center>
   <iframe width="300" height="300" src="https://www.youtube.com/embed/9suECda4XOE" allowfullscreen=""></iframe>
-<center>
+</center>
