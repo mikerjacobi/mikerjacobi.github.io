@@ -2,6 +2,9 @@
 layout: post
 title: The Story of the Nyan Cat hack
 ---
+
+A story of a time that a hacker gained a root shell into my machine. The Nyan Cat hack.
+
 I was hacked. It happened at the Capture the Flag (hacking) competition, Tracerfire. The structure of this competition was such that we played with a team and attempted to solve a series of increasingly difficult puzzles. Puzzles were organized into categories and the idea was that each team was supposed to divvy up their players to work on some category, asking for help from the rest of the team when needed. One of the puzzles I worked on involved downloading
 a binary called CowCli from the competition server, which let you play a little game with CowServ. The goal of this game was to communicate with the server by sending binary sequences and analyzing the output to ultimately find the correct binary sequence that gave you a code to submit for points.
 
