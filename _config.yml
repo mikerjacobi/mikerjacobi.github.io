@@ -1,8 +1,7 @@
 theme: jekyll-theme-minimal
 title: Jacobra
 description: >
-    <a href="/resume.pdf">Resume</a>
-logo: /assets/portrain.jpg
-github:
-  is_project_page: false
+    <a href="/assets/resume.pdf">Resume</a>
+logo: /assets/portait.jpg
+is_project_page: false
 
