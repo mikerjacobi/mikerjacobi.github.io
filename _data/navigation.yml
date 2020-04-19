@@ -3,6 +3,6 @@
 - name: About
   link: /about.html
 - name: resume.html
-  link: /resume.html
+  link: /resume/resume.html
 - name: resume.pdf
-  link: /resume.pdf
+  link: /resume/resume.pdf
