@@ -1,0 +1,193 @@
+{
+  "basics": {
+    "name": "Mike Jacobi",
+    "label": "Software Engineer",
+    "picture": "https://mikerjacobi.github.io/assets/portrait.png",
+    "email": "mikerjacobi@gmail.com",
+    "phone": "(425) 445-1322",
+    "website": "https://mikerjacobi.github.io",
+    "summary": "",
+    "profiles": [
+      {
+        "username": "Personal Site",
+        "url": "https://mikerjacobi.github.io"
+      },
+      {
+        "username": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mikerjacobi/"
+      },
+      {
+        "username": "Github",
+        "url": "https://github.com/mikerjacobi"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Linden Research, Inc, Web Infrastructure Team",
+      "position": "Senior Software Engineer",
+      "website": "https://www.lindenlab.com/",
+      "startDate": "2015-06-01",
+      "summary": "Linden Lab is a social virtual world company with an extensive USD and virtual economy. This team provides financial capabilities as a multitenant SaaS product.",
+      "highlights": [
+        "Designing, implementing critical web infrastructure - invoicing, payments, auth, accounts, fraud, PII microservices",
+        "Shipping code continuously via CI/CD - small PRs, code reviews, autodeploy, autotests, semantic versioning",
+        "Testing extensively, unit and integration, taking a risk based approach to test exhaustivness",
+        "Following software engineer best practices - relentless prioritization, deploying frequently, raising blockers, reverifying requirements",
+        "Communicating inside and outside the team - leading technical discussions, close with Product, alerting Support of outages, technical vendor contact",
+        "Watchlist Checker [Go, MySQL, ES, React, SNS/SQS] built frontend and backend to compare user PII to sanction list entities; PII is fed to ES sanction list indexes and scored for similarity; scores above a threshold emit SNS event; SQS consumer generates FreshDesk compliance tickets; frontend allows agents to view score information and submit reviews",
+        "PII Collector [Go, MySQL, SSR] built frontend/backend to check user PII state, and conditionally collect it; users input PII via 3P iframe which verified data; encrypted and stored PII; frontend allows agents to review PII and take account actions (notes, blocking).",
+        "Event Throttler [Go, Redis] wrote a client library on top of Redis to record and throttle application events."
+      ]
+    },
+    {
+      "company": "Linden Research, Inc, Second Life (SL) Payments Team",
+      "position": "Software Engineer",
+      "startDate": "2013-06-01",
+      "endDate": "2015-06-01",
+      "summary": "This team maintained a legacy payments code base to support Second Life.",
+      "highlights": [
+        "[Python] Integrated with payments/fraud vendors by implementing REST clients",
+        "[Angular, raw JS] Developed frontends to add credit cards and pay invoices",
+        "Deployed code via building Debian packages, installing them, and working with QA to manually test production"
+      ]
+    },
+    {
+      "company": "Los Alamos National Lab",
+      "position": "Intern",
+      "endDate": "2013-06-01",
+      "summary": "Worked on various teams on the high performance computing (HPC) storage initiative",
+      "highlights": [
+        "Summers 2011, 2012, Spring 2013 - [FUSE, MongoDB] Built a filesystem search by tagging directories/files in MongoDB and a query CLI to issue searches",
+        "Summer 2010 - [JQuery] Built storage system visualization tool"
+      ]
+    },
+    {
+      "company": "Arctic Region Supercomputing Center",
+      "position": "Intern",
+      "endDate": "2009-09-01",
+      "summary": "Worked on a team responsible for building climate models",
+      "highlights": [
+        "Summer 2009 - [Python] Built climate data visualization tool",
+        "Summer 2008 - [PHP] Built climate data dashboard"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Online Interior Design Company",
+      "startDate": "2018-12-01", 
+      "endDate": "2020-04-01", 
+      "highlights": [
+          "Co-founded and incorporated a company to facilitate online kitchen design",
+          "App backend uses Go, runs on Lambda and serverless RDS MySQL, ~50 Lambdas per env",
+          "Frontend is a React app served from an S3 bucket behind Cloudfront",
+          "Auth is implemented using AWS Cognito, makes heavy use of groups, and oauth2/SSO",
+          "Built a CI/CD pipeline from Github Actions that deploys to staging/prod via serverless",
+          "Implemented in-app chat on top of AWS IoT",
+          "Other: Shopify store, hot sauce supply chain, InVision product design, team and equity, branding, lawyer and accountant"
+      ]
+    },
+    {
+      "name": "LED Project",
+      "startDate": "2018-12-01", 
+      "endDate": "2018-12-01", 
+      "highlights": [
+          "[Raspberry Pi] Created a circuit that continuously modifies the colors of RGBW LED bulbs according to light pattern",
+          "[Python] Made web app to change the light pattern"
+      ]
+    },
+    {
+      "name": "Journal App",
+      "startDate": "2018-06-01", 
+      "endDate": "2018-06-01", 
+      "highlights": [
+          "[Go, MySQL, EC2] Used Twilio API to make an app that texts me to journal every day; responding inserts the text message into the database. 500+ journal entries"
+      ]
+    },
+    {
+      "name": "CI/CD Pipeline Experiment",
+      "startDate": "2017-12-01", 
+      "endDate": "2017-12-01", 
+      "highlights": [
+          "[AWS Code Pipeline/Build/Deploy] Built CI/CD system to autodeploy on github master pushes",
+          "Published How To video for this on YouTube with 1,000+ views"
+      ]
+    },
+    {
+      "name": "Poker App",
+      "startDate": "2016-12-01", 
+      "endDate": "2016-12-01", 
+      "highlights": [
+          "[React/Redux, Go] Created a websocket based, multiplayer poker game",
+          "[Selenium, webdriverio] Wrote automated UX tests"
+      ]
+    },
+    {
+      "name": "Desktop Wallpaper App",
+      "startDate": "2015-12-01", 
+      "endDate": "2015-12-01", 
+      "highlights": [
+          "Created a Windows app to cycle desktop backgrounds according to specified query tags",
+          "[Go, Angular] Wrote frontend and API to submit background images and query tag"
+      ]
+    },
+    {
+      "name": "Pong App",
+      "startDate": "2014-12-01", 
+      "endDate": "2014-12-01", 
+      "highlights": [
+          "[React Native] Created Android app to record the points scored in Ping Pong games",
+          "[PyBottle, MongoDB] Made REST API to record games and scores",
+          "[Angular] Wrote webapp to visualize game data with Chart.js"
+      ]
+    },
+    {
+      "name": "Music Playlist Project",
+      "startDate": "2013-12-01", 
+      "endDate": "2013-12-01", 
+      "highlights": ["[Angular, PyBottle, MySQL] Developed web app to create unified playlists with content from YouTube and SoundCloud"]
+    },
+    {
+      "name": "Various AWS Projects",
+      "startDate": "2013-01-01", 
+      "endDate": "2013-06-01", 
+      "highlights": [
+          "Item Generator [S3, Dynamo] Experimented with javascript CRUD web app",
+          "Process Resource Throttler [EC2, Python] Made an app and CherryPy server on EC2 to set process resource limits"
+      ]
+    },
+    {
+      "name": "Educational First Person Shooter",
+      "startDate": "2011-06-01", 
+      "endDate": "2011-06-01", 
+      "highlights": ["[C#, XNA] Made FPS with power ups based on knowledge demonstrated; wrote knowledge system, object behavior, collision detection, power-up system; group project"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of New Mexico",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
+      "startDate": "2011-09-01",
+      "endDate": "2012-12-01"
+    },
+    {
+      "institution": "University of Montana",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2007-09-01",
+      "endDate": "2011-06-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Code and Storage",
+      "keywords": ["go", "docker", "python", "react", "mysql", "redis", "elasticsearch", "mongodb"]
+    },
+    {
+      "name": "Other",
+      "keywords": ["agile", "ci/cd", "testing", "oauth2", "aws", "encryption", "mentorship"]
+    }
+  ]
+}
