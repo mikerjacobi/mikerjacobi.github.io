@@ -4,7 +4,7 @@
 <h2> About </h2>
 
 I'm a learner and a communicator. 
-I believe that dedicated routine is the best tool available for accomplishing goals. 
+I believe that dedicated routine is the best tool we have for accomplishing our goals. 
 I try to be process oriented in what I do, and flexible in how I do it. 
 I write code for fun and professionally. 
 I like to run while listening to audio books/podcasts, and I find an outlet in writing and gaming.
