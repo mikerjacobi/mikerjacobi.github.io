@@ -3,17 +3,17 @@ layout: post
 title: LED Light Project
 ---
 
-A description of an LED strip controlled via a Python web server running on a Raspberry Pi.
+A description of an LED strip controlled by a Python web server running on a Raspberry Pi.
 
-I had a conversation with a coworker about the great electronics tutorials at adafruit.com. These tutorials walk you through how to build a circuit on a breadboard and use a Raspberry Pi and a Python library to send digital output to the circuit. I had already picked up a Raspberry Pi Zero and found an LED light strip on Adafruit. The strip has 30 pixels, individually addressable, so each one can be programmed to emit its own RGB value. I got excited to build out the circuit and a small Python server running on the Pi to control the light strip.
+I had a conversation with a coworker about the great electronics tutorials at [adafruit.com](adafruit.com). These tutorials walk you through how to build a circuit on a breadboard and use a Raspberry Pi and a Python library to send digital output to the circuit. I had already picked up a Raspberry Pi Zero and found an LED light strip on Adafruit. The strip has 30 pixels, individually addressable, so each one can be programmed to emit its own RGB value. I got excited to build out the circuit and a small Python server running on the Pi to control the light strip.
 
 Here's some shots of the final product:
 
-![breadboard](/assets/led_lights/breadboard.jpg | width=100)
+![breadboard](../assets/led_lights/breadboard.jpg =250x)
 
 I followed [these instructions](https://learn.adafruit.com/neopixels-on-raspberry-pi/raspberry-pi-wiring) to wire up the breadboard, using the Level Shifting Chip method. I spent maybe $30 for all the materials.
 
-There's a Python neopixel library that does the hard work. It lets you initialize a light strip and then index into the LEDs to set a color.
+There's a [Python neopixel library](https://circuitpython.readthedocs.io/projects/neopixel/en/latest/) that does the hard work. It lets you initialize a light strip and then index into the LEDs to set a color.
 
 ```
 strip = Adafruit_NeoPixel(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS, LED_CHANNEL, LED_STRIP)
