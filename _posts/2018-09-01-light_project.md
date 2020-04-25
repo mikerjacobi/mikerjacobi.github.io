@@ -16,7 +16,7 @@ Here's some shots of the final product:
 <img src="/assets/led_lights/indigo.jpg" alt="" width="150"/>
 <img src="/assets/led_lights/roygbiv.jpg" alt="" width="150"/>
 <img src="/assets/led_lights/bluegreen.jpg" alt="" width="150"/>
-<center>
+</center>
 
 
 I followed [these instructions](https://learn.adafruit.com/neopixels-on-raspberry-pi/raspberry-pi-wiring) to wire up the breadboard, using the Level Shifting Chip method. I spent maybe $30 for all the materials.
