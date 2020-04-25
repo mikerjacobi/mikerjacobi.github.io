@@ -9,6 +9,7 @@ A writeup of how the Nyan Cat hack works.
 <img src="/assets/nyan.png" alt="nyan" width="200"/>
 </center>
 
+
 After the <a href="/2012/10/01/nyan_story.html">Nyan Cat Hack</a>, I wanted to learn how it was executed to get a better idea of what happened so that I could protect myself. This post is a simple description of how to replicate the hack. This is divided into two parts, the backdoor and the bootloader. Disclaimer: this is meant for education only. Do not illegally hack into other machines.
 
 ## The Backdoor
