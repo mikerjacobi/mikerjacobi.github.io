@@ -9,10 +9,12 @@ I had a conversation with a coworker about the great electronics tutorials at [a
 
 Here's some shots of the final product:
 
-<img src="/assets/led_lights/breadboard.jpg" alt="breadboard" width="200"/>
-<img src="/assets/led_lights/breadboard.jpg" alt="breadboard" width="200"/>
-
-<img src="/assets/led_lights/breadboard.jpg" alt="breadboard" width="200"/>
+<img src="/assets/led_lights/circuit_schematic.jpg" alt="circuit schematic" width="150"/>
+<img src="/assets/led_lights/breadboard.jpg" alt="breadboard" width="150"/>
+<img src="/assets/led_lights/wild.jpg" alt="" width="150"/>
+<img src="/assets/led_lights/indigo.jpg" alt="" width="150"/>
+<img src="/assets/led_lights/roygbiv.jpg" alt="" width="150"/>
+<img src="/assets/led_lights/bluegreen.jpg" alt="" width="150"/>
 
 I followed [these instructions](https://learn.adafruit.com/neopixels-on-raspberry-pi/raspberry-pi-wiring) to wire up the breadboard, using the Level Shifting Chip method. I spent maybe $30 for all the materials.
 
