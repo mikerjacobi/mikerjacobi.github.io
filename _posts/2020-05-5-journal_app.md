@@ -19,7 +19,7 @@ It has a nice query interface
 The query interface is what makes this new version much more functional than the original one. Originally, reading the journal meant querying MySQL. Now I can use the DynamoDB interface. Each journal entry has a timestamp so I can search for entries with date ranges. I can also issue 'entry contains <term>' queries. For example, I can search "entry contains 'rocket league'" to see all the times I played rocket league over the past two years. It's pretty satisfying to query by a friend's name to see the times I mentioned them. Another benefit is that I can edit entries using the query interface.
 
 <center>
-<img src="https://i.gyazo.com/0a9a9b6f8adce9d958357edbeeee13ea.gif" alt="query" width="300"/>
+<img src="https://i.gyazo.com/0a9a9b6f8adce9d958357edbeeee13ea.gif" alt="query" width="100%"/>
 </center>
 
 The infrastructure surrounding this project is nice too. I have a dev version of the whole app running on my sandbox. It uses docker swarm to spin up a local DynamoDB instance and runs the Go application in a container. I built a small test suite that exercises the local app containers to make sure application logic is alright. Additionally, I have the database and Lambdas defined in a serverless.yaml configuration file, which generates CloudFormation templates. I'm using a Makefile to record the serverless commands to deploy the database and the functions, so deploying changes to this app is as simple as running "make deploydynamo" and "make deploylamdas". 
