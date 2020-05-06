@@ -6,7 +6,7 @@ title: The Story of the Nyan Cat hack
 A story of a time that a hacker gained a root shell into my machine. The Nyan Cat hack.
 
 <center>
-<img src="/assets/nyan.png" alt="nyan" width="200"/>
+<img src="/assets/nyan.png" alt="nyan" width="100%"/>
 </center>
 
 

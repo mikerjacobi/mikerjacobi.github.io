@@ -6,7 +6,7 @@ title: Nyan Cat Hack - How To
 A writeup of how the Nyan Cat hack works.
 
 <center>
-<img src="/assets/nyan.png" alt="nyan" width="200"/>
+<img src="/assets/nyan.png" alt="nyan" width="100%"/>
 </center>
 
 

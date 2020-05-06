@@ -20,5 +20,5 @@ For a couple months, we had our class play this game every Monday to test out th
 The slides below were for the final presentation that I delivered after finishing a version one of the project.
 
 <center>
-  <iframe src="https://www.slideshare.net/slideshow/embed_code/18368385" height="300" width="300" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen=""></iframe>
+  <iframe src="https://www.slideshare.net/slideshow/embed_code/18368385" width="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen=""></iframe>
 </center>
