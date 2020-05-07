@@ -8,5 +8,5 @@ We were given a simulated 2d graphical world and an avatar with a number of sens
 goal was train a neural network that acted as a brain for the avatar. The only thing passed along between simulation runs was the brain of the avatar, so over time, it learned to survive better.
 
 <center>
-  <iframe width="100%" src="https://www.youtube.com/embed/9suECda4XOE" allowfullscreen=""></iframe>
+  <iframe width="100%" height="300px" src="https://www.youtube.com/embed/9suECda4XOE" allowfullscreen=""></iframe>
 </center>

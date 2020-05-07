@@ -9,5 +9,5 @@ The idea is that you navigate a maze, fight enemies, and collect treasure. The t
 This game was made using C# and XNA. It was team project of three. I was primarily responsible for the object to object collision detection system, the knowledge/treasure system, and the character/stat point system.
 
 <center>
-  <iframe width="100%" src="https://www.youtube.com/embed/Fo3n1K6CHhc" allowfullscreen=""></iframe>
+  <iframe width="100%" height="300px" src="https://www.youtube.com/embed/Fo3n1K6CHhc" allowfullscreen=""></iframe>
 </center>

@@ -20,7 +20,7 @@ The query interface is what makes this new version much more functional than the
 
 
 <center>
-<img src="https://i.gyazo.com/0a9a9b6f8adce9d958357edbeeee13ea.gif" alt="query" width="100%"/>
+<img src="https://i.gyazo.com/0a9a9b6f8adce9d958357edbeeee13ea.gif" alt="query" width="100%" height="300px" />
 </center>
 
 
