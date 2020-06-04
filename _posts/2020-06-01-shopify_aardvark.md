@@ -13,19 +13,11 @@ Dropshipping is when a customer purchases something from a merchant, which cause
 
 This proof of concept centers around Shopify. Shopify provides two things, 1) customer facing infrastructure like product pages, a shopping cart, and payment options, and 2) a merchant interface to manage a product line and handle orders. Shopify generates a product page for each product you define in the merchant interface, which allows customers to view them, add them to a cart, and purchase them from an invoice page. Alternatively, you can modify a virtual shopping cart with Shopify API calls and produce the same invoice page programmatically, more on this coming. Here's a video showing some of Shopify's merchant interface.
 
-<center>
-  <iframe width="100%" height="300px" src="https://youtu.be/embed/XEZgiko-7H0" allowfullscreen="" />
-</center>
-
 # Reseller Account
 
 I found a hot sauce wholesaler, Pepper Explosion, which sells hundreds of varieties of hot sauces and other condiments in bulk. I spoke to an account manager of theirs, who granted us a reseller account. We discussed how dropshipping would work and orders would come in. I was kind of amazed at how subjective the Pepper Explosion reseller application process was. 
 
 I found my go to hot sauce, Aardvark, on Pepper Explosion's site and created a Shopify product listing for it in the merchant interface. I listed it for $6.00, and Pepper Explosion's cut was $4.68. Shopify has an extensive plugin system, and one I came across, called Simple Purchase Orders (SPO), let's you manage suppliers and automatically generate and send purchase orders for them when a customer purchases a product. So, I filled in Pepper Explosion's supplier information and associated Aardvark Hot Sauce with them. Here's a video showing the supplier interface.
-
-<center>
-  <iframe width="100%" height="300px" src="https://youtu.be/embed/a-TK9fh_G5c" allowfullscreen="" />
-</center>
 
 # Shopify's API
 
