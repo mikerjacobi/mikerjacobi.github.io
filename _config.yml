@@ -1,15 +1,20 @@
 theme: jekyll-theme-minimal
 title: Mike Jacobi
 description: >
-    <br />
-    mikerjacobi@gmail.com
-    <br />
-    Machine Learning Engineer, Charmed AI
-    <br />
-    Senior Engineering Manager, Tilia
-    <br />
-    <a href="/resume.pdf">Resume PDF</a> * 
-    <a href="https://github.com/mikerjacobi">Github</a> *
-    <a href="https://www.linkedin.com/in/mikerjacobi/">LinkedIn</a> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72654822-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-72654822-2');
+  </script>
+
+  <br />
+  mikerjacobi@gmail.com
+  <br />
+  Machine Learning Engineer, Charmed AI
+  <br />
+  <a href="/resume.pdf">Resume PDF</a> * 
+  <a href="https://www.linkedin.com/in/mikerjacobi/">LinkedIn</a> 
 logo: /assets/portrait.png
-google_analytics: UA-72654822-2
