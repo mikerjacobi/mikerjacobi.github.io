@@ -9,6 +9,9 @@ I write code for fun and work, and I like running to audio books.
 
 <h2> Posts </h2>
 
+<h3><a href="https://docs.google.com/document/d/e/2PACX-1vT9xWlpIA1YtRGg4ovtmulQglS-iw_hZSb-eO37HRAqdubKQZ_golGxf8oAOHQ15jLR06TbAjddpUup/pub">Using Pulumi to Create Secure Sites</a></h3>
+This walks through a Pulumi script to create secure HTTPS subdomains. 
+
 <h3><a href="https://docs.google.com/document/d/e/2PACX-1vRclLtq0B1IrL4J2FnUBwDKyXIrLEbtc5vXhHZhN9XE7BO0isGeGYluB4Jqdc4InFXxuYxUDpYNj2Y9/pub">3D Model Search</a></h3>
 This post walks through quality tuning on a 3D model search system. 
 
